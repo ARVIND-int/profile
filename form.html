@@ -1,12 +1,58 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="SCHOOL" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
 </head>
 <body>
-    <h1> Arvind Sharma</h1>
+  <h2 style="color:#2c3e50; text-align:center;">registration</h2>
+  <form action="/submit" method="POST" enctype="multipart/form-data">
+
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="first_name" required><br><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="last_name" required><br><br>
+
+    <label for="AGE">AGE:</label>
+    <input type="number" name="age" min="1" max="100"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" minlength="6" required><br><br>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="field">field:</label>
+    <select id="field" name="field">
+      <option value="">--Select--</option>
+      <option value="core">core</option>
+      <option value="AIML">AIML</option>
+      <option value="DATABASE">DATABASE</option>
+      <option value="CYBER">CYBER</option>
+    </select><br><br>
+
+    <!-- <label for="resume">Upload Resume:</label>
+    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx"><br><br> -->
+
+    <!-- <label for="bio">Short Bio:</label><br>
+    <textarea id="bio" name="bio" rows="4" cols="40"></textarea><br><br> -->
+
+    <label>
+      <input type="checkbox" name="terms" required> I agree to the Terms & Conditions
+    </label><br><br>
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear">
+
+  </form>
 </body>
 </html>
