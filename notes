@@ -1,3 +1,7 @@
+CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation and design of HTML or XML documents. It controls the layout, colors, fonts, spacing, and overall visual appearance of web pages, allowing you to separate content (HTML) from design (CSS) for easier maintenance and better flexibility.
+
+
+
 pseudo classes : user interaction : colen hover classes
 interactive pseudo class:
 first child,last child,nth child
