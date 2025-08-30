@@ -1,0 +1,8 @@
+pseudo classes : user interaction : colen hover classes
+interactive pseudo class:
+first child,last child,nth child
+
+a = inline selector
+b= no . id selector
+c= no. of class ,attribute
+d = no. of element
